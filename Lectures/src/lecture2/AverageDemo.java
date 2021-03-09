@@ -31,6 +31,8 @@ public class AverageDemo {
 		System.out.println("average of the values entered is\t"+average);
 		
 		
+		
+		
 	}
 
 }
