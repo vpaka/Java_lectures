@@ -17,8 +17,7 @@ public class AverageWithFor {
 		{
 			System.out.println("Enter a number");
 			int number = s.nextInt();
-			sum+=number; //sum=sum+number
-			
+			sum+=number; //sum=sum+number	
 		}
 		average=sum/number_of_value;
 		System.out.println("Sum is\t: "+sum);
