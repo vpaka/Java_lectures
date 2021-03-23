@@ -1,3 +1,24 @@
+/*
+ * write a program to read a bank account number(can be replaced with username and password)
+	from the user and validate it based on a hardcoded account credentials and balance.
+	if the user fails to authenticate the system should prompt the user to enter a valid 
+	details again.
+
+	if the user is authenticated, Give the user the following menu to choose from
+	Welcome to MelbournePoly Bank
+	    1. Deposit funds (perform deposit operation)
+	    2. Withdraw funds (perform withdrawal operation)
+	    3. view balance (perform balance check)
+	    4. to exit
+	
+	    if the user enters any value other than the above mentioned options it should display
+	    an error message and prompt the user to make a valid selection again
+	
+	The system has to exit only if the user selects option 4 else it has to show him the menu
+	again.
+
+ */
+
 package lecture4;
 import java.util.Scanner;
 public class LearningTask {
