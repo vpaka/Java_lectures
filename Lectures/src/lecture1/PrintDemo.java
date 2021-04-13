@@ -1,9 +1,14 @@
 package lecture1;
 import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Random;
 public class PrintDemo {
 	
 	public static void main(String args[])
 	{
+		
+
+		
 		
 		System.out.println("____Hello Class1!____");
 		System.out.print("____Hello Class2!____");
@@ -18,7 +23,7 @@ public class PrintDemo {
 		System.out.println('1'+10); 
 		System.out.println(10/20); 
 		System.out.println(10%20); 
-		
+		System.out.println(1 + 2 + "45");
 		// 8 Basic data types
 			/* byte 
 			 * short integer
@@ -71,8 +76,38 @@ public class PrintDemo {
 		
 		System.out.println("The value of a is : "+a+" and b is :"+b+" Their sum is : "+a+b);
 		
+		int x = 8, by = 2;
+
+		if ((x = 2) == by)    
+
+		        System.out.print(by); 
+
+		else {  
+
+		 by=by+1;   System.out.print(by); 
+
+		} 
+
+	
 		
+		Scanner s =new Scanner(System.in);
+		Random r=new Random();
+		int y[] =new int[10];
+		for (int i=0;i<10;i++)
+		{
+			int var=r.nextInt(100);
+			
+			y[i]=var;
+		}
+		
+		
+		System.out.println(Arrays.toString(y));
+		
+		}
+	
+	
+	
+	
 		
 	}
 
-}
